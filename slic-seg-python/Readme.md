@@ -13,7 +13,7 @@ We just have to note that the files used are orf.py, ort.py and tree.py from the
 
 This implementation was used on a conda environment using python 2.7.18 and open-cv 4.2.0. 
 
-**main.py** : regroup all the files to make them work together, to use the data -> create 2 folder, 1 with first slice scribbled and on without the first slice scribbled (example of such folder with direction test_clean and test_scribbled)
+**main.py** : regroup all the files to make them work together, to use the data -> create 2 folder, 1 with first slice scribbled and one without the first slice scribbled (example of such folder with direction test_clean and test_scribbled)
   
 **firstSliceDataset.py** : initiate the dataset using the scribbles, for scribbles use value of the RGBs pixel in the file or modify them appropriately, create train and test set.  
 **firstSliceSegmentation.py** : segment the first slice.
